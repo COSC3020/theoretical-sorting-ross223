@@ -17,3 +17,14 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+As we know from class, the theoretical worst case scenerio of any 
+comparison-based algorithm is at least $\Omega (nlogn)$ as there
+are n! permutations of any given array and creating the 
+
+To verify this claim I would generate a couple different arrays to sort.
+1. An array that is already sorted
+2. An array that is reverse sorted
+3. A few arrays that are completely randomized that are of different lengths
+4. An array that uses multiple of the same elements (Ex: [1, 0, 0, 1])
+
