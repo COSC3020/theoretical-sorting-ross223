@@ -20,9 +20,13 @@ Add your answers to this markdown file.
 
 As we know from class, the theoretical worst case scenerio of any 
 comparison-based algorithm that assumes only two elements are being 
-compared at any one time is at least $\Omega (nlogn)$. Therefore, any 
-claims of an algorithm that has runtime of O(n) is almost certainly
-untrue.
+compared at any one time is at least $\Omega (nlogn)$. This is because
+any arbituary array of size n has n! permutations, and any of these
+permutations must be a leaf on a "choice point" binary tree or the
+algorithm fails to sort that permutation. So, reaching this specifc
+permutation much travel through at least nlog(n) decisions.
+Therefore, any claims of an algorithm that has runtime of O(n) is 
+almost certainly untrue.
 
 To verify this claim I would generate a couple different arrays to 
 sort of different lengths:
