@@ -58,3 +58,7 @@ If these tests prove to work properly I would be very suprised and the
 algorithm would change the world of sorting forever, but more than
 likely they will fail, proving that the algorithm does not have time 
 complexity of O(n) and the researcher is incorrect in their assesment.
+
+## Sources
+
+I read over Keifer Buss and Greg Saul's exercises for some ideas
